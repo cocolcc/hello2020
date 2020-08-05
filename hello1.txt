@@ -3,4 +3,8 @@ hello world
 add some function 
 xiao hong
 xiao ming
+<<<<<<< HEAD
 xiao wu
+=======
+强
+>>>>>>> 4d987b10ae7add5c4c582863dff5e9b71d9233a5
