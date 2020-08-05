@@ -3,3 +3,4 @@ hello world
 add some function 
 xiao hong
 xiao ming
+强
