@@ -1,2 +1,3 @@
 add first line
 hello world
+add some function 
