@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<title>
+			高速铁路补偿电容监测系统
+		</title>
+		<link rel="stylesheet" href="css/userinterface.css">
+		<link rel="stylesheet" href="css/original.css">
+	</head>
+	<body background="img/000.jpg" style="background-repeat: no-repeat;background-size:cover">
+
+		<header>
+		<div align="center">
+			<h1 style="color:darkorange">
+				欢迎来到补偿电容监测系统
+			</h1>
+		</div>
+			<div style="float:right">
+				<a href="Homepage.html">
+					<h2>登出</h2>
+				</a>
+			</div>
+		</header>
+
+
+
+
+
+
+							<div class="box" align="center">
+							<h2 style="color:blue">搜 索 信 息</h2>
+							<form action="searchplace.php" method="post" name="keyword">
+                                    <br>
+									<input style="width:280px; height:30px;" name="keyword" type="text" />
+									<br>
+									<input  style="width:285px; height:33px;" type="submit" value="Search" />
+							</form>
+							<br>
+							<div class="text1" align="center">
+							<h3>搜索功能使用细则</h3>
+							<p align="left">
+							<br>
+							1.能搜索的信息有：警报日志、批量采集信息。
+							<br>
+							2.在警报日志的搜索中，关键词是时间。可以具体到年、月、日。如2019、2019-11、2019-11-20等都是合法的输入项。【排列顺序为日期的降序，即日期最近的优先显示】
+							<br>
+							3.在批量采集信息的搜索中，关键词为传感器所在的组号、传感器的id、或是传感器的采集编号（与日期相关）。【排列顺序为日期的降序，即日期最近的优先显示】
+							</p>
+							</div>
+							</div>
+
+
+
+		
+	</body>
+</html>

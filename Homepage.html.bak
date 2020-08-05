@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" manifest="app.manifest">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<title>高速铁路补偿电容监测系统</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+
+	<body background="img/000.jpg" style="background-repeat: no-repeat;background-size:100% 100%">
+
+		<form method="post" action="check.php">
+			<div align="center">
+				<h1 style="color:darkorange;">欢迎来到补偿电容监测系统
+				</h1>
+				<div style="align-content:flex-end;">
+                    <br>
+                    <br>
+					<h2 style="color:blue">请输入账号和密码</h2>
+					<br>
+					<input style="width:280px; height:30px;" id="accountname" value="" name="accountname" title="请输入账号" maxlength="320" type="test" placeholder="请输入账号" />
+					<br>
+					<br>
+					<input style="width:280px; height:30px;" id="password" value="" name="password" title="请输入密码" maxlength="320" type="password" placeholder="请输入密码" />
+					<br>
+					<br>
+					<button style="width:290px; height:35px;" type="submit" name="submit" id="submit">登入</button>
+					<br>
+		</form>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		</div>
+		</div>
+	</body>
+</html>
