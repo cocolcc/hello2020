@@ -10,7 +10,18 @@
 		<link rel="stylesheet" href="css/userinterface.css">
 		<link rel="stylesheet" href="css/original.css">
 	</head>
-	<body background="img/000.jpg" style="background-repeat: no-repeat;background-size:cover">
+
+	<body background="			<?php 
+
+			session_start();
+	    error_reporting(0);
+		$con = mysql_connect("localhost", "root", "");
+        mysql_select_db("app_zpw2000a", $con);
+	    $sql = "SELECT * FROM houtai_uiback ";
+		$res = mysql_query($sql);
+		$colum = mysql_fetch_array($res);
+		echo "{$colum['url']}";
+		?>" style="background-repeat: no-repeat;background-size:cover">
 
 		<header>
 		<div class="box"align="center">
@@ -131,6 +142,9 @@
 							</p>
 							</div>
 							</div>
+							<form method="post" action="houtai.php" align="center">
+							<button style="width:290px; height:35px;" type="submit" name="submit" >管理员后台</button>
+							</form>
 <br>
 <br>
 <br>
